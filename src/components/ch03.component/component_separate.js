@@ -44,7 +44,7 @@ function App(){
     console.log('컴포넌트별 분리하기');
 
     return(
-        <dvi>
+        <dvi age="30">
             <Top />
             <Content />
             <Bottom />
