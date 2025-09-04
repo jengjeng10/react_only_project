@@ -1,29 +1,29 @@
-function Top(){
-    return(
-              <header>
+function Top() {
+    return (
+        <header>
             <h1>인사말</h1>
             여러분..안녕하세요~~
         </header>
     );
 }
 
-function Content(){
-    return(
-              <nav>
+function Content() {
+    return (
+        <nav>
             <ul>
-                <li><a href = "https://www.naver.com">네이버</a></li>
-                <li><a href = "https://www.daum.net">다음</a></li>
-                <li><a href = "https://www.google.com">구글</a></li>
+                <li><a href="https://www.naver.com">네이버</a></li>
+                <li><a href="https://www.daum.net">다음</a></li>
+                <li><a href="https://www.google.com">구글</a></li>
             </ul>
         </nav>
     );
 }
 
-function Bottom(){
-    return(
+function Bottom() {
+    return (
         <article>
-       <h2>맺음말</h2>
-        여러분 부자 되시고, 언제나 행복하세요.
+            <h2>맺음말</h2>
+            여러분 부자 되시고, 언제나 행복하세요.
         </article>
     );
 }
@@ -40,10 +40,10 @@ JSX 문법 규칙
 */
 
 
-function App(){
+function App() {
     console.log('컴포넌트별 분리하기');
 
-    return(
+    return (
         <dvi age="30">
             <Top />
             <Content />
