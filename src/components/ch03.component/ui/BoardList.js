@@ -50,9 +50,9 @@ function App() {
             <thead>
                 <tr>
                     <th>게시물 번호</th>
-                    <th>타이틀</th>
-                    <th>콘텐츠</th>
-                    <th>작가</th>
+                    <th>제목</th>
+                    <th>글내용</th>
+                    <th>작성자</th>
                     <th>작성 날짜</th>
                 </tr>
             </thead>
