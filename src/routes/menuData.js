@@ -32,6 +32,7 @@ export const menuData = [
             { path: '/change_event', label: '체인 이벤트' },
             { path: '/mouse_event', label: '마우스 이벤트' },
             { path: '/key_event', label: '키 이벤트' },
+            { path: '/combo_change', label: '콤보 이벤트 작성' },
 
         ]
 
