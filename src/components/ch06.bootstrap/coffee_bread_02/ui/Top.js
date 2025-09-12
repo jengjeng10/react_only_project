@@ -1,13 +1,10 @@
-
-function App({title, Comment}){
-
-    
-    return(
+function App({ title, comment }) {
+    return (
         <>
             <h2>{title}</h2>
-            {Comment}
+            {comment}
         </>
-    );     
+    );
 }
 
-export default App ;
+export default App;

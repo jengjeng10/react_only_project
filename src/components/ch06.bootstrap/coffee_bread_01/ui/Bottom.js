@@ -1,8 +1,6 @@
-import { Button, ButtonGroup } from "react-bootstrap";
+import { ButtonGroup, Button } from "react-bootstrap";
 
 function App({ message }) {
-    console.log('샘플');
-
     return (
         <>
             <ButtonGroup aria-label="Basic example">
@@ -11,7 +9,7 @@ function App({ message }) {
                 <Button variant="secondary">삭제</Button>
                 <Button variant="secondary">카테고리 추가</Button>
             </ButtonGroup>
-            <br />
+            <br /><br />
             {message}
         </>
     );

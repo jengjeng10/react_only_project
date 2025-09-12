@@ -1,11 +1,8 @@
-
-function App({ title, Comment }) {
-
-
+function App({ title, comment }) {
     return (
         <>
             <h2>{title}</h2>
-            {Comment}
+            {comment}
         </>
     );
 }

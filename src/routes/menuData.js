@@ -59,6 +59,7 @@ export const menuData = [
             { path: '/coffee-bread_02', label: 'IT Cafe 02' },
             { path: '/coffee-bread_03', label: 'IT Cafe 03' },
             { path: '/coffee-bread_04', label: 'IT Cafe 04' },
+            { path: '/coffee-bread_05', label: 'IT Cafe 05' },
             
 
         ]
